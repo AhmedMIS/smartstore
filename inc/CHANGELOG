@@ -1,0 +1,62 @@
+*v1.8.0 (Mar 19, 2014)*
+
+* Add noScrollAlign setting (thanks to @bbakersmith)
+* Fix refreshOnResize bug (see https://github.com/withassociates/microfiche.js/pull/47)
+
+*v1.7.0 (Mar 6, 2014)*
+
+* Add destroy (thanks to @bbakersmith)
+* Improve refresh logic (thanks to @bbakersmith)
+
+*v1.6.0 (Feb 25, 2014)*
+
+* Add refreshOnResize (thanks to @bbakersmith)
+
+*v1.5.0 (Feb 10, 2014)*
+
+* Add refresh (thanks to @bbakersmith)
+
+*v1.4.0 (Sep 17, 2013)*
+
+* Add autopause (thanks to @davemcdermid)
+
+*v1.3.4 (Apr 10, 2013)*
+
+* Stricter feature detection
+
+*v1.3.3 (Jan 18, 2013)*
+
+* jQuery Plugin Manifest
+
+*v1.3.2 (Sep 5, 2012)*
+
+* Improve cyclic for touch
+
+*v1.3.1 (Sep 5, 2012)*
+
+* Improve `autoplay` behaviour
+
+*v1.3.0 (Aug 31, 2012)*
+
+* Add autoplay
+
+*v1.2.2 (Jul 30, 2012)*
+
+* Add `swipe` option
+
+*v1.2.1 (Jun 13, 2012)*
+
+* Fix cyclic bug
+
+*v1.2.0 (May 26, 2012)*
+
+* Add clickToAdvance
+
+*v1.1.0 (May 21, 2012)*
+
+* Add keyboard controls
+
+*v1.0.0 (May 21, 2012)*
+
+* First stable release
+

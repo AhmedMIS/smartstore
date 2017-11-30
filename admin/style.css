@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+.clear{clear:both;}
+
+body{
+	margin:0 auto;
+	font-family:"Lucida Console", Monaco, monospace;
+}
+#wrapper{
+	width:100%;
+	height:auto;
+	margin: 0 auto;
+}
+#header{
+	background-color:#333;
+	height:100px;
+	margin-bottom:0px;
+}
+#header h1{
+	color:white;
+	float:left;
+	margin:0;
+	padding:20px 0px 0px 20px;
+}
+#header ul{
+	float:right;
+}
+#header a{
+	color:white;
+	text-decoration:none;
+}
+#header a:hover{
+	text-decoration:underline;
+}
+#header ul li{
+	display:inline;
+	color:white;
+	padding-right:10px;
+}
+#menu{
+	background-color:#000;
+}
+#menu ul{
+        padding: 5px 10px 35px 10px;
+        list-style: none;
+		margin-top:0px;
+    }
+    #menu ul li{
+        float: left;
+        width: 150px;
+		font-variant:small-caps;
+        text-align: center;
+        line-height: 21px;
+    }
+    #menu ul li a{
+        display: block;
+        padding: 5px 10px;
+        color: white;
+        background: #000;
+        text-decoration: none;
+    }
+    #menu ul li a:hover{
+        color: white;
+        background:#333;
+    }
+    #menu ul li ul{
+        display: none;
+		font-size:14px;
+		position:absolute;
+    }
+    #menu ul li:hover ul{
+        display: block; /* display the dropdown */
+    }
+#heading{
+	margin:150px 0px 0px 150px;
+}
+#login{
+	margin:10px auto;
+	width:400px;
+	height:250px;
+}
+#login table td{
+	padding:10px;
+	font-variant:small-caps;
+	font-weight:bolder;
+	font-size:20px;
+}
+#login table td input {
+	padding:5px;	
+}
+#login p{
+	color:red;
+	padding-left:6px;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+#login a{
+	font-size:16px;
+	color:black;
+}
+#view_products{
+	border:1px solid black;
+	width:82%;
+	margin:0 auto;
+	background-color:ghostwhite;
+	border-radius: 10px;
+	padding: 40px;
+}
+#view_products td h1{
+	font-variant:small-caps;
+	font-weight:bolder;
+	font-size:18px;
+	text-align:center;
+}
+#view_products h2{
+	font-size:16px;
+}
+#view_products td p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:small;
+	text-align:center;
+}
+#footer{
+	background-color:#333;
+	height:100px;
+}
+#footer p{
+	font-size:smaller;
+	font-weight:bolder;
+	color:#FFF;
+	text-align:center;
+	padding-top:30px;
+}
+#add_product{
+	border:1px solid black;
+	width:80%;
+	margin:0 auto;
+	background-color:ghostwhite;
+	border-radius: 10px;
+	padding: 40px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#add_product td{
+	border-right:1px dashed black;
+	border-bottom:1px dashed black;
+	padding:10px;
+}
+#add_product input{
+	padding:4px;
+}
+#add_product select{
+	padding:4px;
+}
+#add_product p{
+	color:red;
+	padding:0;
+	margin:0;
+	font-size:smaller;	
+}
+#add_product h2{
+ width:90%; background-color:#EDEDED; font-size:small; color:#000; padding:5px;	
+}
+#submit{
+	margin-left:250px;
+	margin-top:20px;	
+}
+#users{
+	width:50%;
+	float:left;
+	padding:20px;
+	border:1px solid black;
+	margin:0 auto;
+	margin-left:20px;
+	background-color:ghostwhite;
+	border-radius: 10px;
+	float:left;
+}
+#users td h1{
+	font-variant:small-caps;
+	font-weight:bolder;
+	font-size:18px;
+	text-align:center;
+}
+#users h2{
+	font-size:16px;
+}
+#users td p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:small;
+	text-align:center;
+}
+
+
+---------------------------------------
+#Tabs ul {
+padding: 0px;
+margin: 0px;
+margin-left: 10px;
+list-style-type: none;
+}
+
+#Tabs ul li {
+display: inline-block;
+clear: none;
+float: left;
+height: 24px;
+}
+
+#Tabs ul li a {
+position: relative;
+margin-top: 16px;
+display: block;
+margin-left: 6px;
+line-height: 24px;
+padding-left: 10px;
+background: #f6f6f6;
+z-index: 9999;
+border: 1px solid #ccc;
+border-bottom: 0px;
+
+/* The following four lines are to make the top left and top right corners of each tab rounded. */
+-moz-border-radius-topleft: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+border-top-right-radius: 4px;
+/* end of rounded borders */
+
+width: 130px;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+
+#Tabs ul li a:hover {
+text-decoration: underline;
+cursor:pointer; // a very simple effect when hovering the mouse on tab
+}
+
+#Tabs #Content_Area { // this is the css class for the content displayed in each tab
+padding: 0 15px;
+clear:both;
+overflow:hidden;
+line-height:19px;
+position: relative;
+top: 20px;
+z-index: 5;
+overflow: hidden;
+}

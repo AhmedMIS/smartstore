@@ -1,0 +1,242 @@
+@charset "utf-8";
+/* CSS Document */
+.clear{clear:both;}
+h1{
+	font-size:24px;
+	color:#2B2B2B;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h2{
+	font-size:16px;
+	font-weight:bolder;
+	color:#2B2B2B;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+}
+p{
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	color:red;
+	margin:0;
+	word-break: break-all;
+}
+li{
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#333;
+}
+input,select{
+	padding:4px;	
+}
+body{
+	background-color:#cbcbcb;
+}
+#wrapper{
+	margin:0 auto;
+	width:75%;
+	padding:10px;
+	background-color:ghostwhite;
+	min-height:600px;
+}
+#header{
+	border-bottom:2px solid #cbcbcb;
+	margin-bottom:10px;
+}
+#header h2:hover{
+	color:#22b;
+}
+#category{
+	text-align:center;	
+}
+#category table tr{
+	width:auto;	
+}
+#category td:hover{
+	background-color:lavender;
+}
+#main_categories{
+	float:left;	
+	background-color: lavender;
+	border-radius: 10px;
+	padding: 10px;
+	margin:10px;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#main_categories li{
+	margin:10px 0px;
+	color:#2B2B2B;	
+}
+#main_categories td:hover{
+	background-color:ghostwhite;
+}
+#main_categories td:active{
+	background-color:ghostwhite;	
+}
+#subcategories{
+	float:left;	
+	padding-left: 14px;
+}
+#subcategories td{
+	padding:4px;
+}
+.sub{
+	border-top:1px solid #cbcbcb;	
+}
+.sub p{
+	word-break:break-word;	
+}
+.sub td{	
+	text-align:center;
+	width:150px;
+}
+.sub td:hover{
+	background-color:lavender;
+	border-radius:4px;
+}
+#subcategories p{
+	color:black;	
+	font-size:12px;
+}
+#login{
+	border:1px solid #333;
+	padding:30px;	
+}
+#login p{
+	font-size:12px;
+}
+#results td{
+	padding:4px;	
+}
+#results p{
+	color:#2B2B2B;
+	font-size:12px;	
+}
+#results a{
+	text-decoration:none;	
+}
+#results a:hover{
+	text-decoration:underline;	
+}
+#results:hover{
+	background-color:lavender;	
+}
+#results table{
+	border:2px solid #cbcbcb;	
+}
+.top_links p,a,h2{
+	color:#2b2b2b;
+	font-size:12px;
+}
+.top_links a:hover{
+	color:#22b;	
+}
+.show_ad{
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+.show_ad p{
+	color:#333;	
+}
+#about p{
+	color:#333;
+	margin:10px;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#about li{
+	list-style-type:decimal;
+}
+#about a:hover{
+	text-decoration:underline;	
+}
+#footer{
+	border-top:2px solid #cbcbcb;
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+	margin-top:30px;
+	padding:20px;
+}
+#footer p{
+	word-break:break-word;	
+}
+#footer li{
+	margin-left:20px;
+	margin-bottom:20px;	
+	font-size:12px;
+	float:left;
+}
+.content{
+	width:70%;
+	margin:0 auto;
+	text-align:center;
+}
+.content p{
+	font-size:12px;
+	color:#333;	
+	font-family: "Verdana", Arial, Helvetica, sans-serif;
+}
+.description td{
+	border-right:1px solid #2b2b2b;
+	border-bottom:1px solid #2b2b2b;	
+	line-height:1.5em;
+}
+.description p{
+	font-size:12px;	
+}
+---------------------------------------
+#Tabs ul {
+padding: 0px;
+margin: 0px;
+margin-left: 10px;
+list-style-type: none;
+}
+
+#Tabs ul li {
+display: inline-block;
+clear: none;
+float: left;
+height: 24px;
+}
+
+#Tabs ul li a {
+position: relative;
+margin-top: 16px;
+display: block;
+margin-left: 6px;
+line-height: 24px;
+padding-left: 10px;
+background: #f6f6f6;
+z-index: 9999;
+border: 1px solid #ccc;
+border-bottom: 0px;
+
+/* The following four lines are to make the top left and top right corners of each tab rounded. */
+-moz-border-radius-topleft: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+border-top-right-radius: 4px;
+/* end of rounded borders */
+
+width: 130px;
+color: #000000;
+text-decoration: none;
+font-weight: bold;
+}
+
+#Tabs ul li a:hover {
+text-decoration: underline;
+cursor:pointer; // a very simple effect when hovering the mouse on tab
+}
+
+#Tabs #Content_Area { // this is the css class for the content displayed in each tab
+padding: 0 15px;
+clear:both;
+overflow:hidden;
+line-height:19px;
+position: relative;
+top: 20px;
+z-index: 5;
+overflow: hidden;
+}
+#tab1{
+	font-size:12px;	
+}
+
